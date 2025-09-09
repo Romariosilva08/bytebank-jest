@@ -11,5 +11,6 @@ test('Hooks', () => {
     return nome;
   });
 
+  // espera que o nome seja 'Alice' após o efeito
   expect(result.current).toBe('Alice');
 });
